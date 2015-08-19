@@ -19,8 +19,10 @@
 * http://blog.shadaj.me/2015/07/14/romeo-juliet-and-reactive-programming.html
 * https://www.firebase.com/blog/2015-07-15-reactfire-0-5-0.html
 * [react에서 자동으로 해줘서 오해할 수 있는 ES6 기능들](https://t.co/6A5Bst0rp2)
+* 
 
 ## tutorials
+[Official Guide](http://reactkr.github.io/react/docs/getting-started-ko-KR.html)
 https://github.com/zpratt/react-tdd-guide/commits/master/basics
 [houston.js : React + ES6 + Flux (alt)](https://www.youtube.com/watch?v=0wNWjtp-Ldg) - live coding
 [Creating an Isomorphic Blogging app Using React and Flux](http://engineering.devmag.io/post/1/creating-an-isomorphic-blogging-app-using-react-and-flux)
@@ -29,6 +31,16 @@ http://reactkr.github.io/react/docs/getting-started-ko-KR.html
 [Best practices for building large React applications](https://www.tumblr.com/Zzmd6u1kNuooK)
 Server/Client With React [1](http://eflorenzano.com/blog/2014/04/09/react-part-1-getting-started/) [2](http://eflorenzano.com/blog/2014/04/10/react-part-2-build-system/) [3](http://eflorenzano.com/blog/2014/04/11/react-part-3-frontend-server/)
 [React Native를 사용한 초간단 커뮤니티 앱 제작](http://www.slideshare.net/taggon/react-native)
+* [React.js Introduction For People Who Know Just Enough jQuery To Get By](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/)
+* http://www.jackcallister.com/2015/01/05/the-react-quick-start-guide.html
+* [The Flux Quick Start Guide](http://www.jackcallister.com/2015/02/26/the-flux-quick-start-guide.html)
+* [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
+* [Build A Real-Time Twitter Stream with Node and React.js](https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js)
+* [Build Your First React.js App](https://egghead.io/series/build-your-first-react-js-application)
+* [Learn ReactJS in steps](http://bigbinary.com/videos/learn-reactjs-in-steps)
+* https://github.com/mikechau/react-primer-draft
+* http://maketea.co.uk/2014/06/30/building-robust-web-apps-with-react-part-4.html
+
 
 ## libraries
 * https://github.com/redsunsoft/react-render-visualizer
@@ -40,6 +52,12 @@ Server/Client With React [1](http://eflorenzano.com/blog/2014/04/09/react-part-1
 * [React CSS](http://reactcss.com/)
 * http://webrxjs.org/
 * https://github.com/brentvatne/react-native-art-example
+
+## Flux
+* [Flux For Stupid People](http://blog.andrewray.me/flux-for-stupid-people/)
+
+## Redux
+* https://github.com/gaearon/redux-devtools/releases/tag/v1.0.0
 
 ## React Native
 * Dev with React Native [part 1](https://medium.com/dev-rocket/83c8c7fe9c62)
@@ -59,6 +77,7 @@ http://survivejs.com/webpack_react/introduction
 
 ##deployment
 [AppHub](https://apphub.io/)
+[Reploy](https://reploy.io) - [*Github*](https://github.com/reployapp)
 
 ## in practice
 [blog](https://github.com/jlongster/blog) - All the sources for my react-powered blog
@@ -125,8 +144,10 @@ http://tutorial-viewer.meteor.com/tutorial/0/react - 이거 매우 훌륭. 같�
 
 #Python
 
-[profiler - from What-Studio](https://github.com/what-studio/profiling)
-[#emacs elpy로 간단하게 python 개발환경 만들기 http://t.co/A4E1CrOoIf](http://ohyecloudy.com/emacsian/2015/08/12/elpy-python-ide/)
+* [profiler - from What-Studio](https://github.com/what-studio/profiling)
+* [#emacs elpy로 간단하게 python 개발환경 만들기 http://t.co/A4E1CrOoIf](http://ohyecloudy.com/emacsian/2015/08/12/elpy-python-ide/)
+* [Intermediate Python](http://book.pythontips.com/en/latest/)
+
 ## Object Serialization
 * https://docs.python.org/2/library/pickle.html
 * https://docs.python.org/2/library/marshal.html
@@ -140,15 +161,21 @@ http://tutorial-viewer.meteor.com/tutorial/0/react - 이거 매우 훌륭. 같�
 Let’s Build A Web Server. [Part 1](http://ruslanspivak.com/lsbaws-part1/)
 
 
+## iPython
+* [Parallel Computing with IPython](http://www.astro.washington.edu/users/vanderplas/Astr599/notebooks/21_IPythonParallel)
+
+
 
 # Machine Learning
 
+[Kalman and Bayesian Filters in Python](http://nbviewer.ipython.org/github/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/master/table_of_contents.ipynb)
+
 ## Principles
-[MCMC](http://www.4four.us/article/2014/11/markov-chain-monte-carlo)
-[LDA 파라미터 추정: 깁스 샘플링을 써서](http://www.4four.us/article/2014/10/lda-parameter-estimation)
-[XGBoost](https://github.com/dmlc/xgboost)
-[협업 필터링](http://ko.wikipedia.org/wiki/%ED%98%91%EC%97%85_%ED%95%84%ED%84%B0%EB%A7%81)
-[How a **Kalman** filter works, in pictures](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
+* [MCMC](http://www.4four.us/article/2014/11/markov-chain-monte-carlo)
+* [LDA 파라미터 추정: 깁스 샘플링을 써서](http://www.4four.us/article/2014/10/lda-parameter-estimation)
+* [XGBoost](https://github.com/dmlc/xgboost)
+* [협업 필터링](http://ko.wikipedia.org/wiki/%ED%98%91%EC%97%85_%ED%95%84%ED%84%B0%EB%A7%81)
+* [How a **Kalman** filter works, in pictures](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
 
 ## Courses
 * https://sites.google.com/site/deeplearningsummerschool/schedule
@@ -161,29 +188,49 @@ Let’s Build A Web Server. [Part 1](http://ruslanspivak.com/lsbaws-part1/)
 [Building the Next New York Times Recommendation Engine](http://open.blogs.nytimes.com/2015/08/11/building-the-next-new-york-times-recommendation-engine/)
 
 ## ggplot
+http://rpsychologist.com/working-with-shapefiles-projections-and-world-maps-in-ggplot
+http://maxberggren.github.io/2015/08/04/basemap/
 
 [Cheat Sheet](http://www.computerworld.com/article/2935394/business-intelligence/my-ggplot2-cheat-sheet-search-by-task.html)
+
+## NLP
+
+### Tutorial
+* https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-1-for-beginners-bag-of-words
+
 
 ## visualization
 http://colah.github.io/posts/2015-01-Visualizing-Representations/
 http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
 
+## examples
+* https://github.com/ChenglongChen/Kaggle_CrowdFlower
+
 # App Development
 https://github.com/romannurik/Sketch-NibUITemplatePlugin
 [iOS 9: Introducing Search APIs](http://code.tutsplus.com/tutorials/ios-9-introducing-search-apis--cms-24375)
+
+[Hand Off](http://code.tutsplus.com/tutorials/an-introduction-to-handoff--cms-24349)
 
 # Wep Development
 https://www.getpostman.com/
 https://cdn.rawgit.com/chenglou/react-motion/46d43c86f647d0daa1fb24df095c83e1b4a61fc8/demos/demo8/index.html
 
+## Responsive
+* [반응형 웹 기술 이해](http://readme.skplanet.com/?p=9739)
+
 ## Miscellaneous
 https://github.com/jonahvsweb/touchpoint-js
 
-
+## Node.js
+https://medium.com/@jdaudier/how-to-create-and-publish-your-first-node-js-module-444e7585b738
 
 ## Javascript
 * [자바스크립트 상속에 관한 일반적인 오해들](http://shiren.github.io/javascript/2015/05/06/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%83%81%EC%86%8D%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%9D%BC%EB%B0%98%EC%A0%81%EC%9D%B8%20%EC%98%A4%ED%95%B4%EB%93%A4.html)
 * [The Hitchhiker's Guide to Modern JavaScript Tooling](http://reactkungfu.com/2015/07/the-hitchhikers-guide-to-modern-javascript-tooling/)
+
+### ES6
+[ES6 In Depth: 시리즈를 시작하면서](http://hacks.mozilla.or.kr/2015/08/es6-in-depth-an-introduction/)
 
 ## CSS
 * [12 Little-Known CSS Facts](http://www.sitepoint.com/12-little-known-css-facts/)
@@ -194,9 +241,17 @@ https://github.com/jonahvsweb/touchpoint-js
 * [50 Useful CSS Snippets Every Designer Should Have](http://www.hongkiat.com/blog/css-snippets-for-designers/)
 * https://css-tricks.com/strategies-for-cache-busting-css/
 
+## Font
+
+* http://www.typesquare.com/ko
+
 # Visualization
 http://flowingdata.com/2015/08/11/real-chart-rules-to-follow/
 http://selection.datavisualization.ch/
+http://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/
+https://css-tricks.com/designing-flexible-maintainable-pie-charts-with-css-and-svg/
+[Making Charts with CSS](https://css-tricks.com/making-charts-with-css/)
+
 
 ## principles
 
@@ -212,7 +267,18 @@ http://selection.datavisualization.ch/
 [easelly](http://t.co/SvvnRRv4u5) - Infographic 만드는 template과 GUI 제공 [video](https://t.co/YMJ9q62LzY)
 http://ppss.kr/archives/45332
 http://ronnqvi.st/multiple-animations/
+[Designing and Prototyping with Sketch](http://shop.oreilly.com/product/0636920042549.do)
 
 ## Resources
 https://medium.com/p/e45e5417468e
 
+# Github Blogging
+
+* [Tistory에서 Jekyll을 이용하여 GitHub Pages로 블로그 이전](http://blog.saltfactory.net/note/renewal-blog-from-tistory-to-github-pages-via-jekyll.html)
+* [초보자를 위한 Jekyll Blog 시작하기](http://halryang.net/Jekyll-Blogging-For-Beginners/)
+* [지킬로 깃허브에 무료 블로그 만들기](http://nolboo.github.io/blog/2013/10/15/free-blog-with-github-jekyll/)
+├ [Heroku Jekyll과 CloudFront 연동](http://pyrasis.com/ruby/2014/06/27/jekyll-with-cloudfront)
+
+# Computer Science & Engineering
+
+* ["가슴을 뛰게하는 미래지향적 운영체제론, CS4414: Operating Systems by David Evans"](http://blog.daum.net/effortless/7864769)
